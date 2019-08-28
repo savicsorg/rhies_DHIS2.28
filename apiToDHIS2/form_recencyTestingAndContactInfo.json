@@ -1,0 +1,74 @@
+{
+    "trackedEntity": "fHNKuROvJEc",
+    "orgUnit": "OU_id",
+    "attributes": [
+      {
+        "attribute": "zH1V3jzud6t",
+        "value": "cbs_Date enrollment dans le CBS"
+      },
+      {
+        "attribute": "IZJ5qdeoRrv",
+        "value": "cbs_Index UPID"
+      },
+      {
+         "attribute":"Lv5dV4uPvsz",
+         "value":"cbs_Date de debut des ARVs"
+      }
+    ],
+    "enrollments":[
+      {
+         "orgUnit":"OU_id",
+         "program":"CYyICYiO5zo",
+         "enrollmentDate":"yyyy-mm-dd",
+         "incidentDate":"yyyy-mm-dd",
+         "events":[
+            {
+              "program":"CYyICYiO5zo",
+               "orgUnit":"OU_id",
+               "eventDate":"yyyy-mm-dd",
+               "status":"COMPLETED",
+               "storedBy":"amza",
+               "programStage":"r45yv7rwDEO",
+               "coordinate":{
+                  "latitude":"",
+                  "longitude":""
+               },
+               "dataValues":[
+                  {
+                     "dataElement":"SNcELOKJCTs",
+                     "value":"cbs_Site ou echantillon a ete refere pour recency testing"
+                  },
+                  {
+                     "dataElement":"K4l00GKVInN",
+                     "value":"cbs_Date de reception du Resultat dans le service ARVs"
+                  },
+                  {
+                     "dataElement":"W58gazENRqS",
+                     "value":"cbs_resultat recency testing"
+                  },
+                  {
+                     "dataElement":"xHo7COhyMKM",
+                     "value":"cbs_Number of sexual partners in last 12 months"
+                  },
+                  {
+                     "dataElement":"KX4MrpcRuAb",
+                     "value":"cbs_Membres de la famille"
+                  },
+                  {
+                     "dataElement":"GyqLOJRotuL",
+                     "value":"cbs_Personnes du reseau social"
+                  },
+                  {
+                     "dataElement":"FsbargPR5hR",
+                     "value":"cbs_Date de collecte de echantillon pour le Recency Testing"
+                  },
+                  {
+                     "dataElement":"buRJTweOy6h",
+                     "value":"cbs_Date annonce du resultat de recency Testing au client Indexe"
+                  }
+               ]            
+            }
+          ]
+      }
+    ]
+}
