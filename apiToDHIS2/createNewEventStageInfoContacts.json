@@ -1,0 +1,43 @@
+{
+   "events":[
+               {
+                  "program":"CYyICYiO5zo",
+                  "orgUnit":"OU_id",
+                  "eventDate":"yyyy-mm-dd",
+                  "status":"COMPLETED",
+                  "storedBy":"amza",
+                  "programStage":"RtQV53iuq7z",
+                  "enrollment": "ID_toGetByRequest",
+                  "dataValues":[
+                     {
+                        "dataElement":"CIh22FjXvOR",
+                        "value":"cbs_Code du Contact"
+                     },
+                     {
+                        "dataElement":"m3pQUNk6AeL",
+                        "value":"cbs_Sexe du contact"
+                     },
+                     {
+                        "dataElement":"Zxkghqkbn7p",
+                        "value":"cbs_Relation du Contact avec le Cas Index"
+                     },
+                     {
+                        "dataElement":"scledbnTVVK",
+                        "value":"cbs_Status VIH du Contact"
+                     },
+                     {
+                        "dataElement":"mfAyPSJA74t",
+                        "value":"cbs_Risque de Violence du contact"
+                     },
+                     {
+                        "dataElement":"iz0c8aW79QH",
+                        "value":"cbs_Type de reference Plannifiee"
+                     },
+                     {
+                        "dataElement":"MgkDDuHQHeN",
+                        "value":"Age of contact_in years"
+                     }
+                  ]
+               }      
+            ]
+}
