@@ -1,0 +1,45 @@
+{
+   "events":[
+               {
+                  "program":"CYyICYiO5zo",
+                  "orgUnit":"OU_id",
+                  "eventDate":"yyyy-mm-dd",
+                  "status":"COMPLETED",
+                  "storedBy":"amza",
+                  "programStage":"r45yv7rwDEO",
+                  "enrollment": "ID_toGetByRequest"
+                  "dataValues":[
+                     {
+                        "dataElement":"SNcELOKJCTs",
+                        "value":"cbs_Site ou echantillon a ete refere pour recency testing"
+                     },
+                     {
+                        "dataElement":"K4l00GKVInN",
+                        "value":"cbs_Date de reception du Resultat dans le service ARVs"
+                     },
+                     {
+                        "dataElement":"W58gazENRqS",
+                        "value":"cbs_resultat recency testing"
+                     },
+                     {
+                        "dataElement":"xHo7COhyMKM",
+                        "value":"cbs_Number of sexual partners in last 12 months"
+                     },
+                     {
+                        "dataElement":"KX4MrpcRuAb",
+                        "value":"cbs_Membres de la famille"
+                     },
+                     {
+                        "dataElement":"GyqLOJRotuL",
+                        "value":"cbs_Personnes du reseau social"
+                     },
+                     {
+                        "dataElement":"FsbargPR5hR",
+                        "value":"cbs_Date de collecte de echantillon pour le Recency Testing"
+                     },
+                     {
+                        "dataElement":"buRJTweOy6h",
+                        "value":"cbs_Date annonce du resultat de recency Testing au client Indexe"
+                     }
+                  ]}
+}
