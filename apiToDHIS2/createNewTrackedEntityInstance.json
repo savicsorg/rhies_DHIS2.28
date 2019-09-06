@@ -1,6 +1,6 @@
 {
    "trackedEntity": "fHNKuROvJEc",
-    "orgUnit": "OU_id_toGetByRequest",
+    "orgUnit": "response.organisationUnits[0].id from URLbase/api/organisationUnits.json?fields=id&&filter=code:eq:fosaCode",
     "attributes": [
       {
         "attribute": "zH1V3jzud6t",
