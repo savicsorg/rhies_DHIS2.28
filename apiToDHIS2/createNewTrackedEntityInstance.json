@@ -3,15 +3,15 @@
     "orgUnit": "response.organisationUnits[0].id from URLbase/api/organisationUnits.json?fields=id&&filter=code:eq:fosaCode",
     "attributes": [
       {
-        "attribute": "zH1V3jzud6t",
+        "attribute": "QdxWgPBlRxt",
         "value": ""
       },
       {
-        "attribute": "IZJ5qdeoRrv",
+        "attribute": "ISfxedlVq7Y",
         "value": ""
       },
       {
-         "attribute": "Lv5dV4uPvsz",
+         "attribute": "zxrhIBj6H5K",
          "value": ""
       }
     ]
