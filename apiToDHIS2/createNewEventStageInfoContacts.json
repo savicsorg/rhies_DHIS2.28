@@ -1,41 +1,41 @@
 {
    "events":[
                {
-                  "program":"CYyICYiO5zo",
-                  "orgUnit":"OU_id",
-                  "eventDate":"yyyy-mm-dd",
+                  "program":"CYyICYiO5zo", //fixed value  - Not change. This the program Id
+                  "orgUnit":"response.organisationUnits[0].id from URLbase/api/organisationUnits.json?fields=id&&filter=code:eq:fosaCode",
+                  "eventDate":"yyyy-mm-dd", //Put the completion date of this form
                   "status":"COMPLETED",
                   "storedBy":"amza",
-                  "programStage":"RtQV53iuq7z",
-                  "enrollment": "ID_toGetByRequest",
+                  "programStage":"RtQV53iuq7z", //Fixed value - Not Change. This is the Id of the program stage (the form)
+                  "enrollment": "", //Put the enrollment Id coming from the response of your tracked entity instance enrollment POST request.
                   "dataValues":[
                      {
-                        "dataElement":"CIh22FjXvOR",
-                        "value":"cbs_Code du Contact"
+                        "dataElement":"CIh22FjXvOR", // fixed value - not change. Use this to get the corresponding concept in the Excel mapping file
+                        "value":"" // Put the corresponding concept value of the previous key by using the Excel mapping file. Do the same for the others.
                      },
                      {
                         "dataElement":"m3pQUNk6AeL",
-                        "value":"cbs_Sexe du contact"
+                        "value":""
                      },
                      {
                         "dataElement":"Zxkghqkbn7p",
-                        "value":"cbs_Relation du Contact avec le Cas Index"
+                        "value":""
                      },
                      {
                         "dataElement":"scledbnTVVK",
-                        "value":"cbs_Status VIH du Contact"
+                        "value":""
                      },
                      {
                         "dataElement":"mfAyPSJA74t",
-                        "value":"cbs_Risque de Violence du contact"
+                        "value":""
                      },
                      {
                         "dataElement":"iz0c8aW79QH",
-                        "value":"cbs_Type de reference Plannifiee"
+                        "value":""
                      },
                      {
                         "dataElement":"MgkDDuHQHeN",
-                        "value":"Age of contact_in years"
+                        "value":""
                      }
                   ]
                }      
