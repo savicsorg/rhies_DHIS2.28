@@ -1,17 +1,17 @@
 {
    "events":[
                {
-                  "program":"CYyICYiO5zo",
-                  "orgUnit":"OU_id",
-                  "eventDate":"yyyy-mm-dd",
+                  "program":"CYyICYiO5zo", //fixed value  - Not change. This the program Id
+                  "orgUnit":"response.organisationUnits[0].id from URLbase/api/organisationUnits.json?fields=id&&filter=code:eq:fosaCode",
+                  "eventDate":"yyyy-mm-dd", //Put the completion date of this form
                   "status":"COMPLETED",
                   "storedBy":"amza",
-                  "programStage":"r45yv7rwDEO",
-                  "enrollment": "ID_toGetByRequest",
+                  "programStage":"r45yv7rwDEO", //Fixed value - Not Change. This is the Id of the program stage (the form)
+                  "enrollment": "", //Put the enrollment Id coming from the response of your tracked entity instance enrollment POST request.
                   "dataValues":[
                      {
-                        "dataElement":"SNcELOKJCTs",
-                        "value":"cbs_Site ou echantillon a ete refere pour recency testing"
+                        "dataElement":"SNcELOKJCTs", // fixed value - not change. Use this to get the corresponding concept in the Excel mapping file
+                        "value":"" // Put the corresponding concept value of the previous key by using the Excel mapping file. Do the same for the others.
                      },
                      {
                         "dataElement":"K4l00GKVInN",
@@ -41,5 +41,7 @@
                         "dataElement":"buRJTweOy6h",
                         "value":"cbs_Date annonce du resultat de recency Testing au client Indexe"
                      }
-                  ]}
+                  ]
+               }
+      ]
 }
