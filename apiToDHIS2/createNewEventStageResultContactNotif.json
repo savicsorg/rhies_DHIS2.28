@@ -1,17 +1,17 @@
 {
    "events":[
                {
-                  "program":"CYyICYiO5zo",
-                  "orgUnit":"OU_id",
-                  "eventDate":"yyyy-mm-dd",
-                  "status":"COMPLETED",
-                  "storedBy":"amza",
-                  "programStage":"b9rxVAiJaxA",
-                  "enrollment": "ID_toGetByRequest",
+                  "program":"CYyICYiO5zo", //fixed value  - Not change. This the program Id
+                  "orgUnit":"response.organisationUnits[0].id from URLbase/api/organisationUnits.json?fields=id&&filter=code:eq:fosaCode",
+                  "eventDate":"yyyy-mm-dd", //Put the completion date of this form
+                  "status":"COMPLETED", // to complete the event.
+                  "storedBy":"amza", //the username who records this event.
+                  "programStage":"b9rxVAiJaxA", //Fixed value - Not Change. This is the Id of the program stage (the form)
+                  "enrollment": "", //Put the enrollment Id coming from the response of your tracked entity instance enrollment POST request.
                   "dataValues":[
                      {
-                        "dataElement":"VsEnL2R7crc",
-                        "value":""
+                        "dataElement":"VsEnL2R7crc", // fixed value - not change. Use this to get the corresponding concept in the Excel mapping file
+                        "value":"" // Put the corresponding concept value of the previous key by using the Excel mapping file. Do the same for the others.
                      },
                      {
                         "dataElement":"VuZnWho10cr",
