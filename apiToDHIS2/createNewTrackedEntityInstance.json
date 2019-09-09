@@ -1,18 +1,18 @@
 {
-   "trackedEntity": "fHNKuROvJEc",
+   "trackedEntity": "fHNKuROvJEc", // fixed value - not change
     "orgUnit": "response.organisationUnits[0].id from URLbase/api/organisationUnits.json?fields=id&&filter=code:eq:fosaCode",
     "attributes": [
       {
-        "attribute": "QdxWgPBlRxt",
-        "value": ""
+        "attribute": "QdxWgPBlRxt", // fixed value - not change. Use this to get the corresponding concept in the Excel mapping file
+        "value": "" // Put the corresponding concept value of the previous key by using the Excel mapping file
       },
       {
-        "attribute": "ISfxedlVq7Y",
-        "value": ""
+        "attribute": "ISfxedlVq7Y", // fixed value - not change
+        "value": "" // Put the corresponding concept value of the previous key by using the Excel mapping file
       },
       {
-         "attribute": "zxrhIBj6H5K",
-         "value": ""
+         "attribute": "zxrhIBj6H5K", // fixed value - not change
+         "value": "" // Put the corresponding concept value of the previous key by using the Excel mapping file
       }
     ]
 }
