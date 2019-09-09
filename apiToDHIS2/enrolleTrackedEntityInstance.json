@@ -1,7 +1,7 @@
 {
-  "trackedEntityInstance": "ID_toGetByRequest",
-  "orgUnit": "Ou_ID_toGetByRequest",
-  "program": "CYyICYiO5zo",
-  "enrollmentDate": "ijTurgFUOPq",
-  "incidentDate": "ijTurgFUOPq"
+  "trackedEntityInstance": "",  //Put the Id coming from the response of your tracked entity instance creation POST request.
+  "orgUnit": "response.organisationUnits[0].id from URLbase/api/organisationUnits.json?fields=id&&filter=code:eq:fosaCode",
+  "program": "CYyICYiO5zo", // fixed value - not changed. This is the IN of "HIV cases based surveillance" program.
+  "enrollmentDate": "ijTurgFUOPq", //Put the corresponding concept value (date) of this ID by using the Excel mapping file
+  "incidentDate": "ijTurgFUOPq" //Put the corresponding concept value (date) of this ID by using the Excel mapping file
 }
