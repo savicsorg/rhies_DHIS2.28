@@ -11,7 +11,26 @@ A) CONTENT DESCRIPTION:
  
  Below are the decriptions and the usage of these files. In order:
  
- A - 2) 1st Json File: createNewTrackedEntityInstance:
+ A - 2) 1st Json File: createNewTrackedEntityInstance.json:
  This json file is used to create a new tracked entity (a patient, a person) with particular mandatory informations named Attributes.
  
- The endpoint to use is "http://DHIS2-SERVER-IP/api/trackedEntityInstances" to create new by sending a POST request or this endpoint "http://DHIS2-SERVER-IP/api/trackedEntityInstances/anInstanceID" to edit an existing instance by sending a PUT request.
+ The endpoint to use is "http://DHIS2-SERVER-IP/api/trackedEntityInstances" to create new by sending a POST request 
+ or this endpoint "http://DHIS2-SERVER-IP/api/trackedEntityInstances/anInstanceID" to edit an existing instance 
+ by sending a PUT request.
+
+ A - 3) 2nd Json File: enrolleTrackedEntityInstance.json:
+ This json file is used to enroll a TEI (Tracked Entity Instance) to a specific program.
+ In the json file you have to specify the TEI ID, the progam ID, the enrollment date and the incident date.
+ 
+ The endpoint to use is "http://DHIS2-SERVER-IP/api/enrollments" to enroll a new TEI by sending a POST request 
+ or this endpoint "http://DHIS2-SERVER-IP/api/enrollments/enrollmentID" to edit an existing enrolled TEI 
+ by sending a PUT request.
+ 
+ A - 3) 3rd Json File: createNewEvent*****.json :
+ These Json files are used to create events (a form or program stage).
+ You must specify into these files the program ID, the organisation unit ID, the event date, the program stage ID,
+ the username who record this event, the enrollment ID and all the remaining fields value.
+ 
+ The endpoint to use is "http://DHIS2-SERVER-IP/api/events" to record a new event by sending a POST request 
+ or this endpoint "http://DHIS2-SERVER-IP/api/events/eventID" to edit an existing event 
+ by sending a PUT request.
