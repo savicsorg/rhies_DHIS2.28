@@ -7,6 +7,7 @@
                   "status":"COMPLETED",
                   "storedBy":"amza",
                   "programStage":"pBAeqPjnhdF", //Fixed value - Not Change. This is the Id of the program stage (the form)
+                  "trackedEntityInstance": "", //Put the trackedEntityInstance Id coming from the creation of tracked entity instance
                   "enrollment": "", //Put the enrollment Id coming from the response of your tracked entity instance enrollment POST request.
                   "dataValues":[
                      {
@@ -15,6 +16,18 @@
                      },
                      {
                         "dataElement":"qycXEyMMFMb",
+                        "value":""
+                     },
+                     {
+                        "dataElement":"gJ58M7ClaMm",
+                        "value":""
+                     },
+                     {
+                        "dataElement":"yGhEu1ntCaf",
+                        "value":""
+                     },
+                     {
+                        "dataElement":"eQFf5SRscrT",
                         "value":""
                      },
                      {
@@ -114,6 +127,18 @@
                         "value":""
                      },
                      {
+                        "dataElement":"fB1hxxwcdye",
+                        "value":""
+                     },
+                     {
+                        "dataElement":"ZfoeEa3kNYe",
+                        "value":""
+                     },
+                     {
+                        "dataElement":"fHHFiV0HP0V",
+                        "value":""
+                     },
+                     {
                         "dataElement":"VQPCeakHIpV",
                         "value":""
                      },
@@ -191,10 +216,6 @@
                      },
                      {
                         "dataElement":"mKVpD68KeIO",
-                        "value":""
-                     },
-                     {
-                        "dataElement":"ISfxedlVq7Y",
                         "value":""
                      },
                      {
