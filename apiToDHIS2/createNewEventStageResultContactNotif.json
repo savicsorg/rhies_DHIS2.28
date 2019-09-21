@@ -7,6 +7,7 @@
                   "status":"COMPLETED", // to complete the event.
                   "storedBy":"amza", //the username who records this event.
                   "programStage":"b9rxVAiJaxA", //Fixed value - Not Change. This is the Id of the program stage (the form)
+                  "trackedEntityInstance": "", //Put the trackedEntityInstance Id coming from the creation of tracked entity instance
                   "enrollment": "", //Put the enrollment Id coming from the response of your tracked entity instance enrollment POST request.
                   "dataValues":[
                      {
