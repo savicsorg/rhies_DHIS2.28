@@ -1,22 +1,32 @@
 version: '3'
-volumes:
-  pgdata:
+
 services:
-  database:
-    image: savicsorg/dhis2-postgresql9.5:1latest
+  dhis2-database:
+    container_name: dhis2-postgresql
+    image: savicsorg/dhis2-postgresql:v2-30012020
     restart: always
     environment:
       POSTGRES_USER: cesarie
       POSTGRES_DB: dhis2
       POSTGRES_PASSWORD: dhis
     volumes:
-     - "pgdata:/var/lib/postgresql/data/"
+     - pgdata:/var/lib/postgresql/data
     ports:
      - "5465:5432"
-    links:
-     - web
-  web:
-    image: savicsorg/dhis2-tomcat7jdk8:1latest
+
+  dhis2-webapp:
+    container_name: dhis2-tomcat
+    image: savicsorg/dhis2-tomcat:v2-04022020
+    volumes:
+     - ./config/dhis2_home/dhis.conf:/opt/dhis2/config/dhis.conf
+     - ./config/server.xml:/usr/local/tomcat/config/server.xml
+    environment:
+     - WAIT_FOR_DB_CONTAINER=dhis2-database -t 0
     restart: always
     ports:
       - "8082:8080"
+    depends_on:
+      - dhis2-database
+volumes:
+  pgdata:
+
