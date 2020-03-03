@@ -10,7 +10,7 @@ services:
       POSTGRES_DB: dhis2
       POSTGRES_PASSWORD: dhis
     volumes:
-     - pgdata:/var/lib/postgresql/data
+     - pgDhis2-data:/var/lib/postgresql/data
     ports:
      - "5465:5432"
 
@@ -28,5 +28,6 @@ services:
     depends_on:
       - dhis2-database
 volumes:
-  pgdata:
+  pgDhis2-data:
+  driver: local
 
