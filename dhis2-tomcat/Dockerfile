@@ -1,4 +1,4 @@
-FROM tomcat:7.0.99-jdk8-openjdk-slim
+FROM tomcat:8.5.46-jdk8-openjdk-slim
 
 
 LABEL "Author"="Mamaodu Ben TRAORE - ben@savics.org"
