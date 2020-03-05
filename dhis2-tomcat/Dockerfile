@@ -2,7 +2,7 @@ FROM tomcat:8.5.46-jdk8-openjdk-slim
 
 
 LABEL "Author"="Mamaodu Ben TRAORE - ben@savics.org"
-LABEL description="DHIS2 webapp with tomcat 7 and jre8 for the RHIES project"
+LABEL description="DHIS2 webapp with tomcat 8.5.46-jdk8-openjdk-slim  for the RHIES project"
 
 
 # dhis user setup
