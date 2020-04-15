@@ -3,7 +3,7 @@ version: '3'
 services:
   dhis2-database:
     container_name: dhis2-postgresql
-    image: savicsorg/dhis2-postgresql:v2-30012020
+    image: savicsorg/dhis2-postgresql:v04-15042020
     restart: always
     environment:
       POSTGRES_USER: cesarie
@@ -16,10 +16,7 @@ services:
 
   dhis2-webapp:
     container_name: dhis2-tomcat
-    image: savicsorg/dhis2-tomcat:v2-05032020
-    volumes:
-     - ./config/dhis2_home/dhis.conf:/opt/dhis2/config/dhis.conf
-     - ./config/server.xml:/usr/local/tomcat/config/server.xml
+    image: savicsorg/dhis2-tomcat:v04-15042020
     restart: always
     environment:
       POSTGRES_DB: dhis2
