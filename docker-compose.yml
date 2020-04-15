@@ -16,7 +16,7 @@ services:
 
   dhis2-webapp:
     container_name: dhis2-tomcat
-    image: savicsorg/dhis2-tomcat:v2-04022020
+    image: savicsorg/dhis2-tomcat:v2-05032020
     volumes:
      - ./config/dhis2_home/dhis.conf:/opt/dhis2/config/dhis.conf
      - ./config/server.xml:/usr/local/tomcat/config/server.xml
