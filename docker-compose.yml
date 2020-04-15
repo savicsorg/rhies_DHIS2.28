@@ -21,6 +21,8 @@ services:
      - ./config/dhis2_home/dhis.conf:/opt/dhis2/config/dhis.conf
      - ./config/server.xml:/usr/local/tomcat/config/server.xml
     restart: always
+    environment:
+      POSTGRES_DB: dhis2
     ports:
       - "8082:8080"
     depends_on:
